@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    background-color: #D5752D;
+    color: #fff;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.logoGroup {
+    width: 300px;
+    color: white;
+}

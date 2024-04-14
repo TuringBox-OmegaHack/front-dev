@@ -1,0 +1,45 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.iconButton {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.dropdownContent {
+  border-radius: 5px;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  filter: drop-shadow(0px 0px 2.5px rgba(213, 117, 45, 0.5));
+  z-index: 1;
+  right: 0;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.logoutButton {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  width: 100%;
+  padding: 8px 16px;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+}
+
+.logoutButton:hover {
+  color: white;
+  background-color: #d5752d;
+}
+
+.iconUser {
+  color: #d5752d;
+}

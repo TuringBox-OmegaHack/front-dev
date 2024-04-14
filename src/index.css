@@ -1,0 +1,44 @@
+body{
+  margin: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* @font-face {
+  font-family: "Thin";
+  src: url("../assets/fontsHelveticaNeueLTStd35Thin.otf") format('opentype');
+}
+
+@font-face {
+  font-family: "Light";
+  src: url("../assets/fontsHelveticaNeueLTStd35Light.otf") format('opentype');
+}
+
+@font-face {
+  font-family: "Medium";
+  src: url("../assets/fontsHelveticaNeueLTStd35Medium.otf") format('opentype');
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url("../assets/fontsHelveticaNeueLTStd35Bold.otf") format('opentype');
+}
+
+@font-face {
+  font-family: "Heavy";
+  src: url("../assets/fontsHelveticaNeueLTStd35Heavy.otf") format('opentype');
+}       */
+
+button {
+  background: none;
+  border: 0;
+  color: inherit;
+  /* cursor: default; */
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  -webkit-user-select: none; /* for button */
+   -webkit-appearance: button; /* for input */
+     -moz-user-select: none;
+      -ms-user-select: none;
+}

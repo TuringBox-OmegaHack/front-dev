@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Thin";
+    src: url("../assets/fontsHelveticaNeueLTStd35Thin.otf");
+  }
+  
+  @font-face {
+    font-family: "Light";
+    src: url("../assets/fontsHelveticaNeueLTStd35Light.otf");
+  }
+  
+  @font-face {
+    font-family: "Medium";
+    src: url("../assets/fontsHelveticaNeueLTStd35Medium.otf");
+  }
+  
+  @font-face {
+    font-family: "Bold";
+    src: url("../assets/fontsHelveticaNeueLTStd35Bold.otf");
+  }
+  
+  @font-face {
+    font-family: "Heavy";
+    src: url("../assets/fontsHelveticaNeueLTStd35Heavy.otf");
+  }      
