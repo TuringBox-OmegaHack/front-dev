@@ -1,16 +1,15 @@
-import PropTypes from 'prop-types';
-import LineChart from './LineChart';
+import PropTypes from "prop-types";
+import LineChart from "./LineChart";
 
 const DashboardAdmin = ({ userInfo }) => {
-  
   return (
     <div>
-      <h1>Página del Admin</h1>
-      <div>
-        Bienvenido, {userInfo ? userInfo.username : 'Usuario Desconocido'}!
+      <h1 style={{ marginLeft: "100px" }}>Página de Administración</h1>
+      <div style={{ marginLeft: "100px" }}>
+        Bienvenido, {userInfo ? userInfo.username : "Usuario Desconocido"}!
       </div>
       <div>
-        <h2>Gráfico</h2>
+        <h2 style={{ marginLeft: "100px" }}>Gráfico</h2>
         <div>
           <LineChart />
         </div>
